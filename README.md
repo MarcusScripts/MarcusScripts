@@ -39,30 +39,30 @@ pearl_count : The number of pearls the bot has.
 usage:
 ```
 if bot.pearl_count > 100 then
-bot:getLog():append("I got more than 100 pearls! :o")
+bot:getLog():append("I got less than 100 pearls!")
 end
 ```
 voucher_count : The number of vouchers the bot has.
 usage:
 ```
 if bot.voucher_count > 100 then
-bot:getLog():append("I got more than 100 vouchers, holy shit! :o")
+bot:getLog():append("I got less than 100 vouchers!")
 end
 ```
 level : The level of the bot.
 usage:
 ```
 if bot.level > 100 then
-bot:getLog():append("ROAD TO LVL 125 BOYS! Now I have "..bot.level.."th level!!")
+bot:getLog():append("My level is lesser than 100!")
 end
 ```
 is_account_secured : A read-only property that returns whether the bot account is secured.
 usage:
 ```
 if bot.is_account_secured then
-bot:getLog():append("good 2 go")
+bot:getLog():append("Account is secured!")
 else
-bot:getLog():append("shiit gotta secure my account.")
+bot:getLog():append("gotta secure my account.!")
 end
 ```
 auto_reconnect : A boolean property that enables/disables auto-reconnect.
