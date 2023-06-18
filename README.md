@@ -1,9 +1,10 @@
 status : The status of the player:
 example usage:
+```
 if bot.status ~= 1 then
 bot:connect()
 end
-
+```
 captcha_status : The status of the captcha.
 ```
 example usage - easy access:
