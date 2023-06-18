@@ -528,7 +528,7 @@ userid : The user ID of the player.
 bot = getBot()
 for _,players in ipairs(getPlayers()) do
 NetIDS = players.userid
-bot:getLog():append("Insane, my userID is: "..NetIDS)
+bot:getLog():append("Here are all the people's NETIDS: "..NetIDS.."\n")
 end
 ```
 bubble : The text bubble of the player.
