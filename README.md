@@ -39,21 +39,21 @@ pearl_count : The number of pearls the bot has.
 usage:
 ```
 if bot.pearl_count > 100 then
-bot:getLog():append("I got less than 100 pearls!")
+bot:getLog():append("I got more than 100 pearls!")
 end
 ```
 voucher_count : The number of vouchers the bot has.
 usage:
 ```
 if bot.voucher_count > 100 then
-bot:getLog():append("I got less than 100 vouchers!")
+bot:getLog():append("I got more than 100 vouchers!")
 end
 ```
 level : The level of the bot.
 usage:
 ```
 if bot.level > 100 then
-bot:getLog():append("My level is lesser than 100!")
+bot:getLog():append("My level is bigger than 100!")
 end
 ```
 is_account_secured : A read-only property that returns whether the bot account is secured.
