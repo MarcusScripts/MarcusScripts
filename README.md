@@ -447,14 +447,14 @@ canCollect(itemID: number) -> boolean : Returns true if the player can collect t
 ```
 bot = getBot()
 if bot:canCollect(20) then
-bot:getLog():append("I CAN COLLECT SIGNS! WOOHOO!!")
+bot:getLog():append("I CAN COLLECT SIGNS!")
 end
 ```
 hasItems() -> boolean : Returns true if the player has item.
 ```
 bot = getBot()
 if bot:hasItems(20) then
-bot:getLog():append("I GOT SIGNS!! WOOHOO)
+bot:getLog():append("I GOT SIGNS!")
 end
 ```
 InventoryItem
