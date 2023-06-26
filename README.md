@@ -755,7 +755,7 @@ hasAccess(x: number, y: number) -> boolean : Returns true if the player has acce
     ```
   X = 69
   Y = 69
-  if getBot():hasAccess(X,Y) then
+  if hasAccess(X,Y) then
    bot:findPath(X,Y)
   end
   ```
